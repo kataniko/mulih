@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ 
+ 
+ .texto{
+  text-align: center;
+  font-family: poppins;
+ }
+
+#imagem{
+  background-image: url("../assets/img4.png");
+  background-size: 100%;
+  object-fit: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+ 
+ ul{
+    margin:0;
+    padding:0;
+    display:flex;
+  }
+  
+  ul li{
+    list-style:none;
+    margin:0 20px;
+    transition:0.5s;
+  }
+  
+  ul li a{
+    display: block;
+    position:relative;
+    text-decoration:none;
+    padding:5px;
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    transition:0.5s;
+  }
+  
+  ul:hover li a{
+    transform:scale(1);
+    opacity:0.2;
+    filter:blur(5px);
+  }
+  
+  ul li a:hover{
+    transform:scale(1);
+    opacity:1;
+    filter:blur(0);
+    text-decoration:none;
+    color: rgb(0, 148, 99) !important;
+  }
+  
+  ul li a:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-top:2px solid rgb(0, 148, 99);
+    border-bottom:2px solid rgb(0, 148, 99);
+    transition:0.5s;
+    transform-origin:right;
+    transform:scaleX(0);
+    z-index:-1;
+  }
+  
+  ul li a:hover:before{
+    transition:transform 0.5s;
+    transform-origin:left;
+    transform:scaleX(1);
+  }
+
+  #main{
+    background-image: "../src/assets/back2.png" ;
+  }
+  @media only screen and (max-width: 600px) {
+    #content{
+      margin: 40px 0px 0px 0px !important;
+      margin: 0px !important;
+    }
+    #content2{
+      margin: 0px 0px 0px 0px !important;
+      padding: 0px !important;
+    }
+    #titulo2{
+      font-size: 30px !important;
+      text-align: left;
+      
+    }
+    #subtitle1{
+      text-align: center;
+      padding: 30px 0px 0px 0px !important;
+      margin: 0 !important;
+    }
+
+    #title1{
+      font-size: 40px !important;
+      text-align: center;
+      margin-top: 0 ;
+      margin: 10px !important;
+    }
+    #abovetitle{
+      font-size: 15px !important;
+      text-align: center !important;
+      margin: 0 !important;
+    }
+    #foto1{
+      margin-right: 0 !important;
+      margin-top: 20px !important;
+    }
+    #foto2{
+      margin-right: 0 !important;
+      margin-top: 20px !important;
+    }
+    #foto3{
+      margin-right: 0 !important;
+      margin-top: 20px !important;
+    }
+    #hide{
+      display: none;
+    }
+    #div1{
+      margin-left: 0 !important;
+    }
+    #mulih{
+      margin-left:0 !important;
+    }
+    #q1{
+      font-size: 30px !important;
+    }
+    #q2{
+      font-size: 12px !important;
+      margin-top: 30px !important;
+    }
+    #q3{
+      font-size: 30px !important;
+    }
+    #q4{
+      font-size: 12px !important;
+      margin-top: 30px !important;
+      
+    }
+    #ret1{
+      margin: 0px 0px 60px 0px !important;
+      height: fit-content !important;
+    }
+    #setor4{
+      margin-left: 0 !important;
+      margin-top: 30px !important;
+      padding: 0 !important;
+    }
+    #titulo30{
+      font-size: 25px !important;
+      text-align: center !important;
+      
+    }
+    #advant{
+      font-size: 15px !important;
+    }
+
+    #titulo20{
+      font-size: 30px !important;
+      text-align: left !important;
+      margin-left: 20px;
+      margin-top: 20px !important;
+    }
+     #div4{
+      margin: 20px !important;
+      text-align: center;
+     }
+     #about{
+      margin: 0px !important;
+     }
+     #divnav{
+      margin: 40px 20px 20px 20px !important;
+     }
+     #sec2{
+      margin-top: 30px !important;
+     }
+     #sec22{
+      margin-top: 0 !important;
+     }
+     #sec5{
+      margin-top: 0px !important;
+    
+     }
+     #sec55{
+      margin-top: 0px !important;
+    
+     }
+     #secsec{
+      margin-top: 0px !important;
+     }
+     .cardss{
+      display: flex !important; 
+      justify-content: center;
+     }
+     #sec1t{
+      font-size: 12px;
+      margin-left: 0px;
+     }
+     #sec1tt{
+      font-size: 12px;
+      margin-left: 25px;
+     }
+     #sec1ttt{
+      font-size: 12px;
+      margin-left: 50px;
+     }
+     #sec1b{
+      margin-left:0px !important;
+      font-size: 12px !important;
+     }
+     #sec1bb{
+      margin-left: 20px;
+      font-size: 12px !important;
+     }
+     #btd{
+      width: 100%  !important;
+      margin-bottom: 10px;
+
+     }
+     #sec1bbb{
+      margin-left: 50px;
+      font-size: 12px !important;
+     }
+    #c1{
+      margin-top: 30px;
+    }
+    #contentx{
+      margin-top: 50px !important;
+    }
+    #locations{
+      padding: 0px !important;
+    }
+  
+    #final{
+      margin-top: 0px !important;
+    }
+   
+  }
